@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Zoologico Ciencias</title>
+    <link rel="stylesheet" href="../css/animal.css">
+</head>
+
+<body>
+
+    <h1>Seleccionaste León</h1> 
+    <p> 
+        El león (Panthera leo) es un mamífero carnívoro de la familia de los félidos y una de las cinco especies del género Panthera. 
+        Los leones salvajes viven en poblaciones cada vez más dispersas y fragmentadas del África subsahariana
+    </p>
+
+    <h2> Se dice que es el rey de la selva</h2>
+    
+    <h2 class="lion-data"> Aquí tenemos datos curiosos </h2>
+    <ol>
+        <li class="lion-data">Los leones africanos pueden crecer hasta 3 metros de largo</li>
+        <li class="lion-data">Viven en manadas</li>
+        <li class="lion-data">Su crianza</li>
+    </ol> 
+
+    <p> Si conoces otro dato puedes sugerirnos</p>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Dato: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form> 
+
+    <h2 id="dato-curioso" class="new-data"></h2>
+
+    <p class="end-data"> Espereamos haya sido útil la información</p>
+    <h3 class="end-data"> Visitanos nuevamente</h3>
+    
+        
+    <script src="../js/animal.js"></script>
+
+</body>
+
+</html>

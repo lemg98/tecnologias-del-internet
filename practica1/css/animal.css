@@ -1,0 +1,26 @@
+h1 {
+    color: blueviolet;
+}
+
+p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.lion-data {
+    color: green;
+    font-style: italic;
+}
+
+.new-data {
+    color: brown;
+}
+
+p.end-data {
+    font-size: x-large;
+    color: aqua;
+}
+
+h3.end-data {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+}

@@ -1,0 +1,25 @@
+img {
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.animal-selector {
+    color: green;
+}
+
+.suggestion {
+    color: brown;
+}
+
+h2.suggestion {
+    font-style: italic;
+}
+
+img.animal-selector-picture {
+    width: 150px;
+    height: 150px;
+}
